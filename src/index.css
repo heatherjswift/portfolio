@@ -26,9 +26,19 @@ main {
 
 }
 
+.my-1 {
+  margin-top: var(--spacing-one);
+  margin-bottom: var(--spacing-one);
+}
+
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
 }
 
 .mx-2 {
@@ -98,4 +108,11 @@ p {
   margin-right: 10rem;
   font-size: 17px;
   color: var(--secondary);
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
 }
