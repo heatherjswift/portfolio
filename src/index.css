@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 1250px;
   background-color: #251b1b;
-  color: #c53814;
+  color: var(--tertiary);
 }
 
 main {
@@ -29,4 +29,73 @@ main {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.px-1 {
+  padding-right: var(--spacing-one);
+  padding-left: var(--spacing-one);
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  filter: sepia(100%);
+  width: 15%;
+  border-radius: 20%;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+nav  li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+li {
+  font-size: 20px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.navActive {
+  color: var(--tertiary);
+}
+
+p {
+  width: 20rem;
+  margin-right: 10rem;
+  font-size: 17px;
+  color: var(--secondary);
 }
