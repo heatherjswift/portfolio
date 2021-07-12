@@ -10,7 +10,7 @@ function About() {
           school of continuing studies full stack web-development bootcamp. I am a junior developer and also a kung fu instructor
           at Niagara Kung Fu Academy. 
         </p>
-        <img src={headShot} className='my-2' alt='head-shot' />
+        <img src={headShot} className='my-2 head-shot' alt='head-shot' />
       </div>
     </section>
   );

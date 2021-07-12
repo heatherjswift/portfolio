@@ -31,6 +31,11 @@ main {
   margin-bottom: var(--spacing-one);
 }
 
+.my-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
+}
+
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
@@ -51,12 +56,32 @@ main {
   padding-left: var(--spacing-one);
 }
 
+.px-2 {
+  padding-right: var(--spacing-two);
+  padding-left: var(--spacing-two);
+}
+
+.px-5 {
+  padding-right: var(--spacing-five);
+  padding-left: var(--spacing-five);;
+}
+
+.py-1 {
+  padding-top: var(--spacing-one);
+  padding-bottom: var(--spacing-one);
+}
+
+.py-2 {
+  padding-top: var(--spacing-two);
+  padding-bottom: var(--spacing-two);
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-img {
+.head-shot {
   filter: sepia(100%);
   width: 15%;
   border-radius: 20%;
@@ -119,4 +144,20 @@ textarea {
 
 footer {
   width: 780px;
+}
+
+img {
+  width: 50%;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
 }
