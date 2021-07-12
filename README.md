@@ -10,4 +10,4 @@ A website to showcase my full-stack developing skills.
 https://heatherjswift.github.io/portfolio/
 
 ## Screenshot
-![appscreenshot](assets/screenshot.png)
+![appscreenshot](src/assets/screenshot.png)
