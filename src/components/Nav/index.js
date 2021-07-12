@@ -29,17 +29,31 @@ function Nav(props) {
             </a>
           </li>
           <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
-            <span onClick={() => setPortfolioSelected(true)}>
+            <a href="#portfolio" onClick={() => {
+              setPortfolioSelected(true);
+              setContactSelected(false);
+              setResumeSelected(false);
+            }}>
               Portfolio
-            </span>
+            </a>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`} >
-            <span onClick={() => setContactSelected(true)}>
+            <a href="#contact" onClick={() => {
+              setContactSelected(true); 
+              setPortfolioSelected(false);
+              setResumeSelected(false);
+            }}>
               Contact
-            </span>
+            </a>
           </li>
           <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
-            <span onClick={() => setResumeSelected(true)}>Resume</span>
+            <a href="#resume" onClick={() => {
+              setResumeSelected(true);
+              setPortfolioSelected(false);
+              setContactSelected(false);
+            }}>
+              Resume
+            </a>
           </li>
         </ul>
       </nav>

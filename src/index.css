@@ -116,3 +116,7 @@ textarea {
   border: 3px solid #cccccc;
   padding: 5px;
 }
+
+footer {
+  width: 780px;
+}
