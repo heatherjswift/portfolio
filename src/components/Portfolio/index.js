@@ -1,4 +1,5 @@
 import { AiFillGithub } from 'react-icons/ai';
+import theCommunityGallery from '../../assets/projects/tcg-1.png'
 import budgetTracker from '../../assets/projects/budget-tracker.png' 
 import calenderApp from '../../assets/projects/calender-app.png'
 import justWrite from '../../assets/projects/just-write.png'
@@ -12,6 +13,18 @@ function Portfolio() {
       <h1>Portfolio</h1>
 
       <div className='container'>
+
+      <div className="px-5 my-2 flex-row">
+          <a href="https://cryptic-thicket-25855.herokuapp.com/" target="_blank" rel='noreferrer'>
+            <h3>
+              <a href="https://github.com/deepikabekal/TCG" target='_blank' rel='noreferrer'>
+                <AiFillGithub size={30} />
+              </a>
+              The Community Gallery (TCG)
+            </h3>
+            <img src={theCommunityGallery} alt='project-screenshot'></img>
+          </a>
+        </div>
 
         <div className="px-5 my-2 flex-row">
           <a href="https://lovely-gunnison-29912.herokuapp.com/" target="_blank" rel='noreferrer'>
